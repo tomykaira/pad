@@ -1,0 +1,8 @@
+*.out
+*.a
+*.o
+*.so
+ext/Makefile
+xmp*.rb
+.bundle/
+Gemfile.lock

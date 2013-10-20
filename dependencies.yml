@@ -1,0 +1,61 @@
+# key changes on every request
+
+GET:
+  clear_dungeon:
+    pid: login
+    sid: login
+    hash
+    tmd
+    dung
+    floor
+    key
+  download_limited_bonus_data:
+    pid: login
+    sid: login
+    key
+  get_recommended_helpers:
+    pid: login
+    sid: login
+    key
+  get_user_mails:
+    pid: login
+    ofs
+    sid: login
+    cnt
+    key
+  login:
+    t # 0
+    v # 4.41
+    u # 8D603A32-3FA1-4754-A6D8-03A56D57D62C
+    dev # iPod4,1
+    osv # 5.1
+    key # BAFF3C43 ?
+  play_gacha:
+    pid: login
+    sid: login
+    gtype: friend / other
+
+  sneak_dungeon_ack:
+    pid: login
+    sid: login
+    hash: sneak_dungeon
+    time
+    key
+  sneak_dungeon:
+    pid: login
+    sid: login
+    dung
+    floor
+    time # yymmddhhmmiissmmm
+    helper: get_recommended_helpers
+    key
+
+
+POST:
+  get_ids_parameter:
+    pid: login
+    sid: login
+    key
+    body: 156586138,156586807,156586870,156586443,156589467,156586547,156589024,156589377,156589423,156589579,156589509,156586640,156586280
+
+# 164	19.703324	192.168.5.2	54.249.236.125	HTTP	66	GET /api.php?action=login&t=0&v=4.41&u=8D603A32-3FA1-4754-A6D8-03A56D57D62C&dev=iPod4,1&osv=5.1&key=4A2DF681 HTTP/1.1

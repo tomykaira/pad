@@ -1,0 +1,35 @@
+for ver.4.41
+
+# tmd
+
+random & 0xffdf, if correctly processed.
+
+0x81428+0x6e is tied with the floors of the dungeon.
+The other is set random number on the start of sneaking
+
+# key
+
+0xfffff0f0: from padkey
+0x0f0f: from dmykey
+
+the C functions in ext calculate them.
+
+# save data
+
+28: achievements
+25: receipt
+27: mails
+29: eneSkill
+26: Helper
+48: UserInfo
+56: PlayerData
+63: DungeonContData
+24: DungeonList
+36: SkillData
+39: BonusData
+21: CardData
+30: PadInfo
+31: ExtraBin
+
+mons_xxx.bc: SAVEDATA::EXTRAFILES::EXTRAFILE::FILELIST::getFileName
+card_xxx.bc: SAVEDATA::EXTRAFILES::EXTRAFILE::FILELIST::getFileName
